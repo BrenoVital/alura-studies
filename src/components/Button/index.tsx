@@ -1,7 +1,9 @@
 import style from './style.module.scss';
-const Button = () => {
+const Button = (props: {text:string}) => {
   return(
-    <button className={style.botao}>Botão</button>
+    <button className={style.botao}>
+      {props.text}
+    </button>
   )
 }
 
