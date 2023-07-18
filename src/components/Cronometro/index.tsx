@@ -13,5 +13,4 @@ export const Cronometro = () => {
     </div>
   )
 }
-
 export default Cronometro;
