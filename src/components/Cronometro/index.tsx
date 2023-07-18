@@ -3,13 +3,13 @@ import Relogio from "./Relogio/indext";
 import style from "../Cronometro/Cronometro.module.scss"
 
 export const Cronometro = () => {
-  return(
+  return (
     <div className={style.cronometro}>
       <p className={style.titulo}> Escolha um card e inicie o cronômetro</p>
       <div className={style.relogioWrapper}>
         <Relogio />
       </div>
-        <Button text="Começar!" /> 
+      <Button text="Começar!" />
     </div>
   )
 }
